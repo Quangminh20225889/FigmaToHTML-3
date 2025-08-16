@@ -266,3 +266,41 @@ a {
   display: inline-block;
   margin-top: 18px;
 }
+/* ===================Khối About======================  */
+.about {
+  padding: 170px 0;
+}
+.about-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about__media {
+  width: 49%;
+}
+.about__img {
+  position: relative;
+}
+.about__img--big {
+  width: 512px;
+  height: 370px;
+  border-radius: 6px;
+  box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+  display: flex;
+}
+.about__img--small {
+  position: absolute;
+  width: 332px;
+  height: 370px;
+  border-radius: 6px;
+  object-fit: cover;
+  left: 238px;
+  top: 121px;
+}
+.about__content {
+  width: 40%;
+}
+.about-content__btn {
+  margin-top: 38px;
+}
