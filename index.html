@@ -12,6 +12,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Shine Smile</title>
   </head>
   <body>
@@ -88,6 +89,7 @@
                 src="./assets/img/dentist.jpg"
                 alt="avt"
                 class="service__img"
+                data-aos="flip-up"
               />
             </figure>
             <div class="service__list">
@@ -607,5 +609,9 @@
         </div>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
