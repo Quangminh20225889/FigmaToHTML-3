@@ -72,6 +72,40 @@
     display: block;
     font-size: 2rem;
   }
+  /* Khối Hero  */
+  .hero {
+    flex-direction: column;
+    row-gap: 50px;
+  }
+  .hero__content {
+    order: 2;
+    width: 80%;
+    text-align: center;
+    margin: 22px auto;
+  }
+  .hero__media {
+    order: 1;
+  }
+  .hero__row {
+    justify-content: center;
+  }
+  /* Khối service  */
+  .service__row {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .service-item {
+    width: 90%;
+  }
+  .service__img {
+    width: 650px;
+  }
+  .service__list {
+    text-align: center;
+  }
+  .service-item {
+    text-align: start;
+  }
 }
 /* Table  */
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -79,7 +113,7 @@
 /* Mobile  */
 @media (max-width: 767.98px) {
 }
-.hero,
-.footer.main {
+
+footer {
   display: none;
 }
